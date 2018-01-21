@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evgen Auto | Index</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,500,600">
+
+    <link rel="stylesheet" href="./font-icons/css/font-icons.css">
+    <link rel="stylesheet" href="pew.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="site.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function() {
+            var map = L.map('map').setView([51.505, -0.09], 13);
+            L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { }).addTo(map);
+        });
+    </script>
+
+</head>
+<body>
+    <section style="background-color: #18363C; border-bottom: 1px solid #ddd;">
+        <div class="container">
+            <div class="f-row pad-items">
+                <div class="f-cell-e">
+                    <p>
+                        <span class="icon-phone c-white"></span>
+                        <a href="" class="c-light-grey">+7 (951) 163 3949</a>
+                    </p>
+                </div>
+                <div class="f-cell-e">
+                    <p>
+                        <span class="icon-ie c-white"></span>
+                        <a href=""><span class="c-light-grey">tech142@ya.ru</span></a>
+                    </p>
+                </div>
+                <div class="f-cell-e f-row" style="margin-left: auto;">
+                    <div class="">
+                        <p><span class="icon-vk c-white"></span></p>
+                    </div>
+                    <div class="">
+                        <p><span class="icon-odnoklassniki c-white"></span></p>
+                    </div>
+                    <div class="">
+                        <p><span class="icon-telegram c-white"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <header>
+        <div class="container">
+            <div class="f-row center">
+                <div class="f-cell-e">
+                    <div class="site-logo">
+                        <a href=""><img src="logo4.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="f-cell-e" style="margin-left: auto;">
+                    <ul class="inline-list main-menu">
+                        <li class="selected"><a href=""><span class="hover-underline">Главная</span></a></li>
+                        <li><a href=""><span class="hover-underline">Услуги</span></a></li>
+                        <li><a href=""><span class="hover-underline">Установка ГБО</span></a></li>
+                        <li><a href=""><span class="hover-underline">О нас</span></a></li>
+                        <li><a href=""><span class="hover-underline">Наши работы</span></a></li>
+                        <li><a href=""><span class="hover-underline">Контакты</span></a></li>
+                    </ul>
+                </div>
+                <div class="f-cell-e">
+                    <button class="bgc-light-blue c-white" type="button">Записаться</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="img-cover" style="background-image: url('./carousel/carousel-01.png')">
+            <div style="background-color: rgba(0,0,0,0.75);">
+                <div class="container">
+                    <div class="f-row bottom pad-items" style="height: 45vh; min-height: 350px; padding-bottom: 3rem;">
+                        <div class="f-cell-1-2">
+                            <h2 class="c-white" style="margin-bottom: 0;">Установите ГБО 4 поколения у нас и получите</h2>
+                            <ul class="c-light-grey icon-mark-list" style="font-size: 1.25rem;">
+                                <li><span class="icon-right-open-1"></span>Гарантия на пробег 1 год или 25 000 км</li>
+                                <li><span class="icon-right-open-1"></span>Помощь в регистрации ГБО в ГИБДД</li>
+                                <li><span class="icon-right-open-1"></span>Полное сервисное обслуживание</li>
+                            </ul>
+                            <div>
+                                <button class="bgc-light-blue c-white" type="button">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div>
+                <h2 class="ta-center head-line">Мы предлагаем</h2>
+            </div>
+            <div class="f-row equals pad-items">
+                <div>
+                    <div class="ta-center">
+                        <span class="icon-droplet round-icon c-white bgc-light-blue icon-size-medium"></span>
+                    </div>
+                    <br>
+                    <div><h4 class="ta-center">Установка ГБО</h4></div>
+                    <div>
+                        <img src="./images/misc/misc-04.png" alt="">
+                    </div>
+                    <div>
+                        <p class="ta-justify c-grey p-small">
+                            Установка на Ваш автомобиль как нового газобаллонного оборудования (Alpha, Digitronic),
+                            так и бывшего в использовании (Lovato, OMVL, Poletron, Stag и др.), приобретнное Вами в каком-либо
+                            другом месте
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="ta-center">
+                        <span class="icon-cog-alt round-icon c-white bgc-light-blue icon-size-medium"></span>
+                    </div>
+                    <br>
+                    <div><h4 class="ta-center">Ремонт двигателя</h4></div>
+                    <div>
+                        <img src="./images/misc/misc-02.png" alt="">
+                    </div>
+                    <div>
+                        <p class="ta-justify c-grey p-small">
+                            Текущий (без полной разборки двигателя) с заменой вышедших из строя деталей или механизмов и
+                            капитальный ремонт двигателя - полная разборка, с осуществлением дефектовки
+                            деталей, заменой изношенных деталей, сборкой и проверкой.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="ta-center">
+                        <span class="icon-battery round-icon c-white bgc-light-blue icon-size-medium"></span>
+                    </div>
+                    <br>
+                    <div><h4 class="ta-center">Электронная диагностика</h4></div>
+                    <div>
+                        <img src="./images/misc/misc-01.png" alt="">
+                    </div>
+                    <div>
+                        <p class="ta-justify c-grey p-small">
+                            При помощи сканеров мы выполняем считывание с последующей расшифровкой кодов ошибок с электронных
+                            средств контроля и управления автомобилей. Так выявляется неисправность, а далее определяется
+                            методика ее устранения.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="ta-center">
+                        <span class="icon-tools round-icon c-white bgc-light-blue icon-size-medium"></span>
+                    </div>
+                    <br>
+                    <div><h4 class="ta-center">Шиномонтаж и ТО</h4></div>
+                    <div>
+                        <img src="./images/misc/misc-03.png" alt="">
+                    </div>
+                    <div>
+                        <p class="ta-justify c-grey p-small">
+                            Замена масел, охдождающей жидкости, тормозной жидкости,
+                            всех видов фильтров, тормозных колодок, шприцевание подвески. А так же
+                            шиномонтаж, балансировка колес, ремонт проколов шин и камер
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="ta-center v-pad-2">
+                <button type="button" class="button-medium bgc-light-blue c-white">Все услуги</button>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: #f2f3f8; border-top: 1px solid #eee;">
+        <div class="container">
+            <div class="f-row pad-items">
+                <div>
+                    <h2 class="head-line">Установка ГБО</h2>
+                </div>
+            </div>
+            <div class="f-row equals pad-items">
+                <div class="">
+                    <h4>Привет</h4>
+                    <p>
+                        Все возрастающие цены на бензин вынуждают многих владельцев авто обращать свое внимание на установку
+                        газобаллонного оборудования, которое дает возможность снизить расходы на эксплуатацию. однако,
+                        ряд водителей думают, что такое оборудование небезопасно и может нанести вред. их опасения понятны,
+                        так как только профессиональный монтаж по всем правилам может обеспечить надёжность и безопасность
+                        пользования.
+                    </p>
+                    <p class="p-small c-grey">
+                        Мы всегда готовы предложить Вам услуги по установке ГБО на машины всех типов, наш коллектив обладают всеми знаниями для того,
+                        чтобы сделать эти работы согласно требованиям, а так же имеет большой опыт в установке и ремонте ГБО
+                    </p>
+                </div>
+                <div>
+                    <h4><span class="h-icon icon-thumbs-up round-icon c-white bgc-light-blue"></span>Преимущества</h4>
+                    <p class="p-small c-grey">
+                        Используя ГБО, вы экономите на топливе и масле, увеличиваете срок эксплуатации составных частей
+                        своего автомобиля, перемещаетесь на экологически более чистом транспорте, инвестировав при
+                        этом вполне оптимальную сумму в установку оборудования.
+                    </p>
+                    <hr>
+                    <ul class="icon-mark-list">
+                        <li><span class="icon-right-open-1"></span>Экономия на топливе до 100 000 руб. в год</li>
+                        <li><span class="icon-right-open-1"></span>Средняя окупаемость 250 дней</li>
+                        <li><span class="icon-right-open-1"></span>Увеличение ресурса двигателя и некоторых комплектующих на 40%</li>
+                        <li><span class="icon-right-open-1"></span>Экологически чисто и безопасно</li>
+                        <li><span class="icon-right-open-1"></span>Меньший шум работы двигателя</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4><span class="h-icon icon-users round-icon c-white bgc-light-blue"></span>Почему мы</h4>
+                    <p class="p-small c-grey">
+                        Выбирая нас, Вы можете быть уверены в качестве и скорости произведенных работ. Мы работаем с разными
+                        производителями ГБО, начиная от фирменных европейских до более простых и дешевых
+                    </p>
+                    <hr>
+                    <ul class="icon-mark-list">
+                        <li><span class="icon-right-open-1"></span>Гарантия 25 000 км на все работы</li>
+                        <li><span class="icon-right-open-1"></span>Полное сервисное обслуживание</li>
+                        <li><span class="icon-right-open-1"></span>Установка ГБО на любые легковые и грузовые автомобили</li>
+                        <li><span class="icon-right-open-1"></span>Лучшее оборудование от европейских производителей</li>
+                        <li><span class="icon-right-open-1"></span>Помощь в регистрации ГБО в ГИБДД</li>
+                        <li><span class="icon-right-open-1"></span>Опыт работы сотрудников более 10 лет</li>
+                    </ul>
+                </div>
+                <!--<div>-->
+                    <!--<h4><span class="h-icon icon-dollar round-icon c-white bgc-light-blue"></span>Цены</h4>-->
+                    <!--<p class="p-small c-grey">-->
+                        <!--Цены на установку разнятся в зависимости от типа ГБО и двигателя Вашего автомобиля-->
+                    <!--</p>-->
+                    <!--<hr>-->
+                    <!--<div>-->
+                        <!--<p>-->
+                            <!--<b>4 цилиндра</b><br>-->
+                            <!--<span class="c-grey">от 25 000 руб.</span>-->
+                        <!--</p>-->
+                        <!--<p>-->
+                            <!--<b>6 цилиндров</b><br>-->
+                            <!--<span class="c-grey">от 32 500 руб.</span>-->
+                        <!--</p>-->
+                        <!--<p>-->
+                            <!--<b>8 цилиндров</b><br>-->
+                            <!--<span class="c-grey">от 37 500 руб.</span>-->
+                        <!--</p>-->
+                    <!--</div>-->
+                    <!--<p class="p-small c-grey">Узнать подробнее о цене установки на Ваш автомобиль можно по телефону</p>-->
+                <!--</div>-->
+            </div>
+            <div class="ta-center v-pad-2">
+                <button type="button" class="button-medium bgc-light-blue c-white">Подробнее</button>
+            </div>
+        </div>
+    </section>
+    <section class="img-cover" style="background-image: url('./images/bg-01.jpg')">
+        <div style="background-color: rgba(28,41,39,0.85);">
+            <div class="container">
+                <div class="f-row pad-items">
+                    <div>
+                        <h2 class="ta-center c-white head-line">О нас</h2>
+                    </div>
+                </div>
+                <div class="f-row pad-items">
+                    <div class="f-cell-1-2">
+                        <h4 class="c-light-grey">Автомастерская <b class="c-white">Технарь</b></h4>
+                        <p class="c-white-grey">
+                            Автомастерская «Технарь» - это небольшой и опытный коллектив, который специализируется на установке
+                            автомобильного газобаллонного оборудования, а также ремонте и техническом обслуживании
+                            легковых автомобилей и малотоннажных грузовиков разных марок.
+                        </p>
+                        <p class="c-white-grey">
+                            Спектр видов работ, выполняемых нашим автосервисом, довольно широк, но мы не стоим на месте и стараемся его
+                            постоянно расширять, не теряя при этом в качестве оказываемых услуг. Кстати о качестве, это
+                            является приоритетом в нашей работе наравне с честностью по отношению к нашим клиентам.
+                            И это непросто слова, потому как организаторы и работники АС «Технарь» - это одни и те же люди,
+                            которым дорога своя репутация.
+                        </p>
+                    </div>
+                    <div>
+
+                    </div>
+                    <div class="f-cell-1-2">
+                        <!--<h4 class="c-white">Как добраться</h4>-->
+                        <div id="map" style="height: 100%;"></div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2 class="ta-center head-line">Наши работы</h2>
+            <div class="f-row equals pad-items our-works">
+                <div>
+                    <img src="./images/misc/misc-01.png" alt="">
+                    <p class="">Установка ГБО <br><span class="c-light-grey p-small">Toyota Sprinter</span></p>
+                </div>
+                <div>
+                    <img src="./images/works/work-01.png" alt="">
+                    <p>Ремонт тормозной системы <br><span class="c-light-grey p-small"></span></p>
+                </div>
+                <div>
+                    <img src="./images/misc/misc-03.png" alt="">
+                    <p>Ремонт проводки <br><span class="c-light-grey p-small">Зил-130</span></p>
+                </div>
+                <div><img src="./images/misc/misc-04.png" alt=""></div>
+                <div>
+                    <img src="./images/misc/misc-01.png" alt="">
+                    <p>Диагностика ГБО <br><span class="c-light-grey p-small">Ваз-2106</span></p>
+                </div>
+                <div>
+                    <img src="./images/misc/misc-02.png" alt="">
+                    <p>Установка ГБО <br><span class="c-light-grey p-small">Hyundai Accent 1997 г.</span></p>
+                </div>
+            </div>
+            <div class="f-row equals pad-items our-works">
+                <div><img src="./images/misc/misc-01.png" alt=""></div>
+                <div><img src="./images/misc/misc-02.png" alt=""></div>
+                <div>
+                    <img src="./images/misc/misc-03.png" alt="">
+                    <p>Ремонт ГБО <br><span class="c-light-grey p-small">Газель 4339</span></p>
+                </div>
+                <div><img src="./images/misc/misc-04.png" alt=""></div>
+                <div>
+                    <img src="./images/misc/misc-01.png" alt="">
+                    <p>Замена масла <br><span class="c-light-grey p-small">Ваз-2114</span></p>
+                </div>
+                <div><img src="./images/misc/misc-02.png" alt=""></div>
+            </div>
+            <div class="ta-center v-pad-2">
+                <button type="button" class="button-medium bgc-light-blue c-white">Смотреть все работы</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="f-row pad-items">
+                <div class="f-cell-1-4">
+                    <div>
+                        <a href=""><img src="./logo5.png" alt=""></a>
+                    </div>
+                    <div>
+                        <br>
+                        <p class="p-small c-light-grey">
+                            Наш сервис предлагает вам полный спектр услуг ремонта автомобиля, от замены масла и покраски до
+                            установки ГБО и ремонта двигателя любой сложности
+                        </p>
+                    </div>
+                </div>
+                <div class="f-cell-1-5">
+                    <h4 class="c-white"><b>Карта сайта</b></h4>
+                    <ul class="icon-mark-list animated c-light-grey">
+                        <li><span class="icon-right-open-1 c-light-blue"></span><a href="">Главная</a></li>
+                        <li><span class="icon-right-open-1 c-light-blue"></span><a href="">Услуги</a></li>
+                        <li><span class="icon-right-open-1 c-light-blue"></span><a href="">Установка ГБО</a></li>
+                        <li><span class="icon-right-open-1 c-light-blue"></span><a href="">О нас</a></li>
+                        <li><span class="icon-right-open-1 c-light-blue"></span><a href="">Наши работы</a></li>
+                        <li><span class="icon-right-open-1 c-light-blue"></span><a href="">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="f-cell-1-5">
+                    <h4 class="c-white"><b>Контакты</b></h4>
+                    <ul class="icon-mark-list animated c-light-grey">
+                        <li><span class="icon-phone"></span><a href="">+7 (951) 163 3949</a></li>
+                        <li><span class="icon-ie"></span><a href="">tech142@ya.ru</a></li>
+                        <li><span class="icon-location"></span><a href="">ул. Юрия двужильного, д. 8/1, Кемерово</a></li>
+                        <li><span class="icon-vk"></span><a href="">vk.com/evgenauto</a></li>
+                        <li><span class="icon-odnoklassniki"></span><a href="">ok.ru/evgenauto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    any trash
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

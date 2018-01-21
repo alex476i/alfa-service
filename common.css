@@ -1,0 +1,112 @@
+html { font-size: 100%; }
+body { }
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+	line-height: 150%;
+	color: #424242;
+}
+
+section { }
+
+
+
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+b { font-size: inherit; font-weight: 600; color: inherit; }
+h1, h2, h3, h4, h5, h6 { text-transform: uppercase; }
+h1 {  }
+h2 { margin: 1rem 0; font-size: 2rem; display: inline-block; width: 100%; }
+h4 { margin: 1rem 0; font-size: 1.25rem; }
+hr { border: 0; height: 1px; background-color: grey; margin: 0.75rem 0; }
+img { max-width: 100%; display: block; }
+p { padding: 0.75rem 0; }
+span { font-size: inherit; font-weight: inherit; color: inherit; }
+
+
+ul { list-style-type: none; padding: 1rem 0; }
+ul > li {  }
+ul.inline-list { font-size: 0; }
+ul.inline-list > li { display: inline-block; }
+button {
+    border: none; outline: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+    transition: all 0.1s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+/* region TYPOGRAPHY */
+
+.ta-center { text-align: center; }
+.ta-justify { text-align: justify; }
+
+.c-white-grey { color: #cdcdcd; }
+.c-light-grey { color: #a0a0a0; }
+.c-dark-blue { color: #005597; }
+.c-light-blue { color: #0096d6; }
+.c-grey { color: #8a8a8a; }
+.c-white { color: #ffffff; }
+.bgc-dark-blue { background-color: #005597; }
+.bgc-light-blue { background-color: #0096d6; }
+
+.subtitle { padding-top: 0; }
+
+
+/* endregion */
+
+
+
+
+
+
+
+
+.hover-underline { position: relative; }
+.hover-underline:before { transition: width 0.2s ease-in; content: ""; position: absolute; bottom: -2px; display: block; width: 0; height: 2px; background-color: #424242; }
+.hover-underline:hover {  }
+.hover-underline:hover:before { width: 100%; }
+
+
+.img-cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+
+
+
+.round-icon { position: relative; font-size: inherit; z-index: 0; }
+.round-icon:after {
+    color: inherit;
+    background-color: inherit;
+    position: absolute;
+    z-index: -1;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+.icon-size-small {  }
+.icon-size-medium { font-size: 1.5rem; }
+.icon-size-large { font-size: 2rem; }
+
+button.button-small {  }
+button.button-medium { font-size: 1.5rem; padding: 0.75rem 1.25rem; }
+button.button-large { font-size: 2rem; padding: 1rem 1.5rem; }
+
+
