@@ -68,14 +68,37 @@ div.site-logo > a > img {
 .our-works > div {
     cursor: pointer;
     padding-top: 1rem;
-    transition: all 0.25s ease-in;
-    border: 1px solid rgba(0,0,0,0);
+    transition: all 0.2s ease-out;
 }
 
 .our-works > div:hover {
-    background-color: #f2f3f8;
-    border: 1px solid #eee;
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     /*box-shadow: 0 0 4px rgba(0,0,0,0.33);*/
+}
+
+.our-services > div {
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+.header-icon-blue {
+    margin-right: 1rem;
+    background-color: #0096d6;
+    color: white;
+}
+
+.service-section {
+    padding: 1rem 0 2rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.service-section:last-child {
+    border-bottom: none;
+}
+
+.service-section:nth-child(even) {
+
 }
 
 
@@ -88,7 +111,7 @@ div.site-logo > a > img {
 }
 
 .icon-mark-list { font-size: 1rem; }
-.icon-mark-list > li { color: inherit; font-size: inherit; position: relative; padding-left: 1rem; margin-bottom: 0.5rem; }
+.icon-mark-list > li { color: inherit; font-size: inherit; position: relative; padding-left: 1.25rem; margin-bottom: 0.5rem; }
 .icon-mark-list > li > span[class^="icon-"] {
     display: inline-block;
     position: absolute;
@@ -112,6 +135,10 @@ div.site-logo > a > img {
     left: -0.25rem;
 }
 
+.pad-1 {
+    padding: 1rem;
+}
+
 .v-pad-1 {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -124,7 +151,7 @@ div.site-logo > a > img {
 
 .p-small { font-size: 0.9rem; }
 
-button:after {
+button:before {
     content: "";
     background-color: rgba(255,255,255,0.25);
     position: absolute;
@@ -132,6 +159,7 @@ button:after {
     width: 100%;
     bottom: 0;
     left: 0;
+    z-index: 1;
     transition: all 0.25s ease-in-out;
 }
 button:hover {
@@ -139,7 +167,7 @@ button:hover {
     color: white;
     box-shadow: 0 2px 4px rgba(0,0,0,0.33);
 }
-button:hover:after {
+button:hover:before {
     height: 100%;
 }
 

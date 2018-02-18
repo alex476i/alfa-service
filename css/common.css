@@ -12,11 +12,11 @@ section { }
 
 
 
-a { text-decoration: none; }
+a { text-decoration: none; color: inherit; font-size: inherit; }
 a:hover { text-decoration: none; }
 b { font-size: inherit; font-weight: 600; color: inherit; }
 h1, h2, h3, h4, h5, h6 { text-transform: uppercase; }
-h1 {  }
+h1 { margin: 1.25rem 0; font-size: 2.25rem; display: inline-block; width: 100%; }
 h2 { margin: 1rem 0; font-size: 2rem; display: inline-block; width: 100%; }
 h4 { margin: 1rem 0; font-size: 1.25rem; }
 hr { border: 0; height: 1px; background-color: grey; margin: 0.75rem 0; }
@@ -37,6 +37,10 @@ button {
     transition: all 0.1s ease-in-out;
     position: relative;
     overflow: hidden;
+}
+button a {
+    position: relative;
+    z-index: 10;
 }
 
 /* region TYPOGRAPHY */
