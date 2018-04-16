@@ -46,6 +46,7 @@ button a {
 /* region TYPOGRAPHY */
 
 .ta-center { text-align: center; }
+.ta-right { text-align: right; }
 .ta-justify { text-align: justify; }
 
 .c-white-grey { color: #cdcdcd; }

@@ -1,0 +1,118 @@
+.ae-slider {
+    display: none;
+    position: fixed;
+    user-select: none;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10000;
+    padding: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.66);
+}
+
+.ae-slider > .ae-slider-controls {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 10vh - 2.5rem);
+    background-color: rgba(0, 0, 0, 0.66);
+}
+
+.ae-slider > .ae-slider-controls > .ae-slider-prev {
+    cursor: pointer;
+    z-index: 102;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.ae-slider > .ae-slider-controls > .ae-slider-next {
+    cursor: pointer;
+    z-index: 102;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.ae-slider > .ae-slider-controls > .ae-slider-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.ae-slider > .ae-slider-controls > .ae-slider-image > img {
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.ae-slider > .ae-slider-controls > .ae-slider-close {
+    cursor: pointer;
+    z-index: 103;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 6vh;
+    height: 6vh;
+    min-height: 4rem;
+    min-width: 4rem;
+}
+
+.ae-slider > .ae-slider-controls > .ae-slider-close > span {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 3rem;
+    color: #888;
+    transition: all 0.25s ease-out;
+}
+
+.ae-slider > .ae-slider-controls > .ae-slider-close > span:hover {
+    color: #fff;
+}
+
+.ae-slider > .ae-slider-caption {
+    max-height: 3.5rem;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.88);
+    border-bottom: 1px solid #222;
+}
+
+.ae-slider > .ae-slider-thumbs {
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.88);
+    font-size: 0;
+    padding: 0.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ae-slider > .ae-slider-thumbs > div {
+    cursor: pointer;
+    display: inline-block;
+    padding-right: 0.5rem;
+    height: inherit;
+}
+.ae-slider > .ae-slider-thumbs > div > img {
+    display: block;
+    height: calc(100% - 1rem);
+    transition: all 0.1s ease-in;
+    opacity: 0.25;
+}
+
+.ae-slider > .ae-slider-thumbs > div.selected > img {
+    opacity: 1;
+}
